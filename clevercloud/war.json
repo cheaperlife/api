@@ -3,8 +3,4 @@
     "container":"TOMCAT6",
     "war" : ["cheaperlife.war"]
    },
-    "build":{
-	"type": "maven",
-	"goal": "package"
-    }
 }

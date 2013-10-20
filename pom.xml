@@ -23,8 +23,8 @@
 	<configuration>
 	  <outputDirectory>/target/</outputDirectory>
 	  <warName>cheaperlife</warName>
-	  <!-- <warSourceDirectory>/src/</warSourceDirectory> -->
-	  <!-- <webxml>/WebContent/WEB-INF/web.xml</webxml> -->
+	  <warSourceDirectory>/src/</warSourceDirectory>
+	  <webxml>/WebContent/WEB-INF/web.xml</webxml>
 	  <failOnMissingWebXml>false</failOnMissingWebXml>
 	</configuration>
       </plugin>

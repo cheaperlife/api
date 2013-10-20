@@ -1,6 +1,10 @@
 {
   "deploy":{
     "container":"TOMCAT6",
-    "war" : ["cheaperlife.war"]
+    "war" : ["/target/cheaperlife.war"]
    },
+    "build":{
+	"type": "maven",
+	"goal": "package"
+    }
 }
